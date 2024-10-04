@@ -1,0 +1,32 @@
+our website theme:
+theme: travel agency
+Name: Ways travel
+color theme: 
+    primary color: green 
+    secondary color: dark-green
+    color: gray
+
+cornflower blue: #6495ED
+Pistachio: #93C572
+Nyanza: #ECFFDC
+
+for color codes:
+https://htmlcolorcodes.com/colors/shades-of-green/
+
+
+How to add images
+free images resource pexels.com
+(check for copyright and attribute information wheever you add some media to your website)
+difference between auto vs fixed height or width
+
+how to use display flex and center or align item vertically and horizontally
+gap between elements
+
+make sure to have proper alignment (code/program)
+practice proper indentation and adding comments
+
+google fonts
+
+https://fonts.google.com/
+
+

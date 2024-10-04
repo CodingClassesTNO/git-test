@@ -1,0 +1,138 @@
+/* external css */
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+        /* CSS is case sensitive */
+        *,html{
+            margin:0;
+        }
+        /* header settings */
+        .site-logo-nav{
+         
+            /* text-align: center; */
+            display:flex;/* align items with proper spacing by default */
+            /* align-item/justify-content/gap comes with flex combo */
+            align-items: center;/*vertical aignment- center item vertically*/
+            justify-content: center;/*horizontal alignment- justify the text*/
+            gap:20px;/* to give space between the items */
+          }
+        
+       .site-logo{
+            height: 60px;
+            width: 60px;
+        }
+        .site-title{
+            font-family: Arial, Helvetica, sans-serif;
+            
+            /* font-weight: 500; */
+            font-size: 45px;
+            font-family: "Pacifico", cursive;
+            font-weight: 400;
+            font-style: normal;
+           
+        }
+        /* nav ul{ */
+        .nav-ulist{
+            list-style: none; /* remove styles of list like bullet points*/
+            margin: 12px 0; /*tb rl*/
+            text-align: center;
+        }
+        /* nav ul li{ */
+        .nav-item{
+            display: inline-block;/* horizontal alignment*/
+            padding: 10px 15px;
+            color: #bf1a1a;
+            /* a{
+                text-decoration: none;
+                color:white;
+            } */
+         
+        }
+        
+        
+        /* .nav-item:first-child{
+        background-color: #2af15f;
+       
+       } */
+
+       .nav-item:nth-child(even){
+        background-color: #93C572;
+       
+       }
+       .nav-item:nth-child(odd){
+        background-color: #6495ED;
+       
+       }
+       .nav-item:hover{
+          
+            background-color: #ECFFDC;
+
+            a{
+                color:black;
+            }
+       
+        }
+       
+        /* nav ul li a{ */
+        .nav-link{
+            text-decoration: none;
+            color:white;
+          
+        }
+
+        
+        /* .logo-item{
+            display: inline;
+        } */
+        /* end of header settings */
+
+        /* main settings */
+        .main-settings{
+            background-color: #dbf679;
+           
+        }
+        /* class selector */
+        .div-settings{
+            /* height:500px; */
+            /* background-color: coral; */
+        }
+        .div-title{
+                font-size: 45px;
+                color: green;
+                font-family: "Fascinate Inline", system-ui;
+                font-weight: 400;
+                font-style: normal;
+                
+            }
+        .home-div{
+            width:80%;
+            margin: 0 auto;
+            background-color: #8b8bf8;
+            padding:50px;
+                 
+        }
+        .service-div{
+            background-color: #70f798;
+            padding:50px;
+        }
+        .about-div{
+            /* width: 100%; */
+            background-color: #63e1ea;
+            padding: 50px;
+        }
+        .about-img{
+            width:100%;
+            /* height:auto; by default */
+        }
+        .contact-div{
+            background-color: #ecba7c;
+        }
+        .contact-img{
+            width:50%;
+        }
+
+        /* main settings */
+
+        .footer-settings{
+            background-color: black;
+            height: 100px;
+        }
